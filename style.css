@@ -1,0 +1,102 @@
+body {
+    margin: 50px;
+    padding: 50px;
+    display: flexbox;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.book-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+
+}
+.card {
+    
+    height: 100px;
+    width: 220px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    border: 1px solid lightblue;
+}
+
+.add-book{
+ 
+    background-color: transparent;
+    border: 1px solid lightblue;
+    margin: auto;
+    align-items: center;
+    height: 40px;
+    width: 170px;
+    font-weight: bold;
+    margin-left: 40%;
+    position:relative;
+
+    
+}
+.add-book:hover{
+    background-color: lightblue;
+}
+.read-book{
+    width: 70px;
+    margin: 20px;
+    background-color: transparent;
+    border: 1px solid lightblue;
+}
+.remove-book{
+    width: 70px;
+    margin: 20px;
+    background-color: lightcoral;
+    border: 1px solid lightblue;
+    }
+    
+    .dialog-modal {
+        display: none; 
+        position: fixed; 
+        top: 70%; 
+        left: 50%; 
+        right: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%); 
+        height: 150px;
+        width: 300px;
+        background-color: white; 
+        border: 1px solid lightblue;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        z-index: 1000; 
+    }
+#input-group{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+
+}
+#input-group label {
+    width: 100px;
+    height: 30px;
+
+}
+.card-text{
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+ 
+}
+#input-group input{
+    background-color: transparent;
+    border: 1px solid lightblue;
+}
+.btn-submit {
+    width: 70px;
+    margin: 20px;
+    background-color: transparent;
+    border: 1px solid lightblue;
+}
+.btn-submit:hover{
+    background-color: lightpink;
+}
